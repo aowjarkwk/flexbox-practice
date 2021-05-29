@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/434532c9dd.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            width:1000px;
+            margin: 0 auto;
+
+        }
+        .wrap {
+            border: 1px solid black;
+            
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid black;
+            height: 50px;
+            align-items: center;
+        }
+
+        .main {
+
+            display: flex;
+            height: 300px;
+            flex-wrap: nowrap;
+        }
+
+        .aside {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 300px;
+            margin: 30px;
+            margin-left: 50px
+        }
+
+        .section {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            margin: 20px;
+            margin-left: 300px;
+        }
+        .section i{
+            font-size: 70px;
+            text-align: center;
+        }
+
+        .idpass {
+            display: flex;
+
+        }
+
+        .IP {
+            display: flex;
+            margin-left: auto;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid black;
+            height: 50px;
+            align-items: center;
+        }
+
+        #아디비번 a {
+            color: gray;
+            text-decoration: none;
+        }
+        #아디비번{
+            display: flex;
+            justify-content: center;
+        }
+        input{
+            padding: 10px;
+            margin:2px;
+        }
+        input[type=password]{
+            margin-bottom: 30px;
+        }
+        .section i{
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header"><i class="fa-solid fa-user"></i></div>
+        <div class="main">
+            <div class="aside">
+                <input type="text">
+                <input type="password">
+                <input type="submit">
+                <div class="묶">
+                    <div class="idpass">
+                        <input type="checkbox" id="checkbox"><label for="checkbox">아이디 저장</label>
+                        <div class="IP">IP보안 <span>ON</span></div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div id="아디비번"><a href="#">아이디찾기</a>|<a href="#">비밀번호찾기</a></div>
+            </div>
+            <div class="section"><i class="fas fa-atom"></i>
+
+            </i></div>
+        </div>
+        <div class="footer">카카오 주식회사</div>
+    </div>
+</body>
+
+</html>
